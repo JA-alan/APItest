@@ -1,4 +1,3 @@
-# 配置文件
 import os
 
 # 项目根目录
@@ -8,4 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEST_CASE_FILE = os.path.join(BASE_DIR, 'testcases', 'test_cases.xlsx')
 
 # 测试报告文件路径
-REPORT_FILE = os.path.join(BASE_DIR, 'reports', 'test_report.html')
+REPORT_DIR = os.path.join(BASE_DIR, 'reports', 'test_report.html')
+
+# 输出 REPORT_DIR 的值，用于调试
+print(f"测试报告文件路径: {REPORT_DIR}")

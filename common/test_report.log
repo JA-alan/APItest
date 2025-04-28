@@ -1,0 +1,52 @@
+2025-04-28 14:01:59,283 - INFO - 开始加载测试用例
+2025-04-28 14:02:01,437 - ERROR - 执行过程中出现错误: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "D:\APItest\common\email_utils.py", line 59, in send_test_report
+    test_suite = test_loader.discover('testcases', pattern='test_*.py')
+  File "C:\Users\EDY\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 306, in discover
+    os.path.dirname((the_module.__file__)))
+  File "C:\Users\EDY\AppData\Local\Programs\Python\Python310\lib\ntpath.py", line 249, in dirname
+    return split(p)[0]
+  File "C:\Users\EDY\AppData\Local\Programs\Python\Python310\lib\ntpath.py", line 211, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2025-04-28 14:02:01,438 - ERROR - expected str, bytes or os.PathLike object, not NoneType
+2025-04-28 14:04:10,912 - INFO - 开始加载测试用例
+2025-04-28 14:04:10,914 - ERROR - 执行过程中出现错误: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "D:\APItest\common\email_utils.py", line 59, in send_test_report
+    test_suite = test_loader.discover('testcases', pattern='test_*.py')
+  File "C:\Users\EDY\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 306, in discover
+    os.path.dirname((the_module.__file__)))
+  File "C:\Users\EDY\AppData\Local\Programs\Python\Python310\lib\ntpath.py", line 249, in dirname
+    return split(p)[0]
+  File "C:\Users\EDY\AppData\Local\Programs\Python\Python310\lib\ntpath.py", line 211, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2025-04-28 14:04:10,915 - ERROR - expected str, bytes or os.PathLike object, not NoneType
+2025-04-28 14:05:44,233 - INFO - 开始加载测试用例
+2025-04-28 14:05:51,409 - INFO - 开始加载测试用例
+2025-04-28 14:05:51,411 - ERROR - 执行过程中出现错误: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "D:\APItest\common\email_utils.py", line 59, in send_test_report
+    test_suite = test_loader.discover('testcases', pattern='test_*.py')
+  File "C:\Users\EDY\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 306, in discover
+    os.path.dirname((the_module.__file__)))
+  File "C:\Users\EDY\AppData\Local\Programs\Python\Python310\lib\ntpath.py", line 249, in dirname
+    return split(p)[0]
+  File "C:\Users\EDY\AppData\Local\Programs\Python\Python310\lib\ntpath.py", line 211, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2025-04-28 14:05:51,413 - ERROR - expected str, bytes or os.PathLike object, not NoneType
+2025-04-28 14:06:00,920 - INFO - 开始加载测试用例
+2025-04-28 14:11:33,956 - INFO - 邮件信息配置完成
+2025-04-28 14:11:33,956 - ERROR - 报告文件 D:\APItest\reports\test_report.html/test_report.html 未找到，无法添加附件。
+2025-04-28 14:11:34,835 - INFO - 邮件发送成功
+2025-04-28 14:11:34,835 - INFO - 邮件发送完成
+2025-04-28 14:13:02,666 - INFO - 邮件信息配置完成
+2025-04-28 14:14:52,476 - INFO - 邮件信息配置完成
+2025-04-28 14:15:12,361 - ERROR - 报告文件 D:\APItest\reports\test_report.html/test_report.html 未找到，无法添加附件。
+2025-04-28 14:21:48,678 - INFO - 邮件信息配置完成
+2025-04-28 14:21:49,346 - INFO - 邮件发送成功
+2025-04-28 14:21:49,347 - INFO - 邮件发送完成
+2025-04-28 14:22:53,292 - INFO - 邮件信息配置完成

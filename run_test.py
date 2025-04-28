@@ -1,6 +1,7 @@
 import unittest
 from HTMLTestRunner import HTMLTestRunner
-from config.config import REPORT_FILE
+from config.config import REPORT_DIR
+from common.email_utils import send_test_report
 
 def run_tests():
     try:
@@ -9,7 +10,7 @@ def run_tests():
         test_suite = test_loader.discover('testcases', pattern='test_*.py')
 
         # 定义测试报告文件名
-        report_file = open(REPORT_FILE, 'wb')
+        report_file = open(REPORT_DIR, 'wb')
 
         # 创建 HTMLTestRunner 对象
         runner = HTMLTestRunner(stream=report_file, title='接口自动化测试报告', description='测试用例执行情况')
@@ -23,6 +24,13 @@ def run_tests():
         # 关闭报告文件
         if 'report_file' in locals():
             report_file.close()
+
+    # 发送测试报告邮件
+    try:
+        send_test_report()
+        print("测试报告邮件发送成功")
+    except Exception as e:
+        print(f"发送测试报告邮件时出错: {e}")
 
 if __name__ == "__main__":
     run_tests()
