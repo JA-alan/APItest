@@ -21,7 +21,6 @@ def send_email(receiver, subject, body, report_file):
     msg['From'] = sender
     msg['To'] = ', '.join(receiver) if isinstance(receiver, list) else receiver
     msg['Subject'] = subject
-
     msg.attach(MIMEText(body, 'plain'))
 
     # 添加附件
