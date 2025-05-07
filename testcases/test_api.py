@@ -107,15 +107,10 @@ def generate_test_method(case):
 
 # 读取 Excel 中的测试用例
 cases = read_excel(TEST_CASE_FILE)
-print(f"读取到的测试用例数量: {len(cases)}")
 for index, case in enumerate(cases):
     test_method = generate_test_method(case)
     test_method.__name__ = f'test_case_{index}'
     setattr(TestAPI, test_method.__name__, test_method)
-
-# 打印测试类中所有的测试方法名
-test_methods = [name for name in dir(TestAPI) if name.startswith('test_')]
-print(f"生成的测试方法: {test_methods}")
 
 if __name__ == "__main__":
     unittest.main()
