@@ -28,3 +28,80 @@
 2025-04-29 14:10:27,717 - INFO - 邮件信息配置完成
 2025-04-29 14:10:28,543 - INFO - 邮件发送成功
 2025-04-29 14:10:28,543 - INFO - 邮件发送完成
+2025-05-06 17:17:48,334 - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/user/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}, json={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}
+2025-05-06 17:17:48,335 - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"data":"aad0bae87fc44a38bcd3669a66f714e6",
+	"message":"success"
+}
+2025-05-06 17:17:48,335 - INFO - 成功获取到 token: aad0bae87fc44a38bcd3669a66f714e6
+2025-05-06 17:17:48,336 - ERROR - 数据解析错误: {"id": "c39bf60707f64c108bf1ed7ae8641e9f",
+"newPassword": "13288837481",
+"token":
+}
+2025-05-06 17:17:48,336 - INFO - 邮件信息配置完成
+2025-05-06 17:17:49,379 - INFO - 邮件发送成功
+2025-05-06 17:17:49,379 - INFO - 邮件发送完成
+2025-05-06 18:00:04,730 - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/user/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}, json={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}
+2025-05-06 18:00:04,731 - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"data":"b293eaf4bfc24337a6bfed5e8aee01f2",
+	"message":"success"
+}
+2025-05-06 18:00:04,732 - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/user/open/user/login', 'headers': 'Access-Domain=zt', 'params': None, 'data': "{'userName': '13288837480',\n'password': '13288837480',\n'userType': '-1',\n'logPort': '0',\n'logType': '1',\n'domain': 'zt'}", 'json': None, 'expected_status_code': 200}
+2025-05-06 18:00:04,732 - INFO - 成功获取到 token: b293eaf4bfc24337a6bfed5e8aee01f2
+2025-05-06 18:00:04,858 - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/api/admin/user/updateUserPassword, headers={'Access-Domain': 'zt', 'Authorization': 'Bearer b293eaf4bfc24337a6bfed5e8aee01f2'}, params=None, data={'id': 'c39bf60707f64c108bf1ed7ae8641e9f', 'newPassword': '13288837481', 'token': 'b293eaf4bfc24337a6bfed5e8aee01f2'}, json={'id': 'c39bf60707f64c108bf1ed7ae8641e9f', 'newPassword': '13288837481', 'token': 'b293eaf4bfc24337a6bfed5e8aee01f2'}
+2025-05-06 18:00:04,858 - INFO - 响应信息: status_code=200, content={"code":0,"message":"Authorization Error","data":null}
+2025-05-06 18:00:04,859 - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/api/admin/user/updateUserPassword', 'headers': 'Access-Domain=zt', 'params': None, 'data': "{'id':'c39bf60707f64c108bf1ed7ae8641e9f','newPassword':'13288837481','token':'token'\n}", 'json': None, 'expected_status_code': 200}
+2025-05-06 18:00:04,996 - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/user/open/user/login, headers={'Access-Domain': 'zt', 'Authorization': 'Bearer b293eaf4bfc24337a6bfed5e8aee01f2'}, params=None, data={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt', 'token': 'b293eaf4bfc24337a6bfed5e8aee01f2'}, json={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt', 'token': 'b293eaf4bfc24337a6bfed5e8aee01f2'}
+2025-05-06 18:00:04,996 - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"data":"c09c604cd3244e52969a42f325a5002f",
+	"message":"success"
+}
+2025-05-06 18:00:04,996 - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/user/open/user/login', 'headers': 'Access-Domain=zt', 'params': None, 'data': "{'userName': '13288837480',\n'password': '13288837480',\n'userType': '-1',\n'logPort': '0',\n'logType': '1',\n'domain': 'zt'}", 'json': None, 'expected_status_code': 200}
+2025-05-06 18:00:04,997 - INFO - 邮件信息配置完成
+2025-05-06 18:00:05,869 - INFO - 邮件发送成功
+2025-05-06 18:00:05,869 - INFO - 邮件发送完成
+2025-05-06 18:04:10,348 - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/user/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}, json={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}
+2025-05-06 18:04:10,350 - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"data":"1f5d310048404baaaacfe2bc7afd8bfc",
+	"message":"success"
+}
+2025-05-06 18:04:10,480 - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/api/admin/user/updateUserPassword, headers={'Access-Domain': 'zt'}, params=None, data={'id': 'c39bf60707f64c108bf1ed7ae8641e9f', 'newPassword': '13288837481', 'token': 'token'}, json={'id': 'c39bf60707f64c108bf1ed7ae8641e9f', 'newPassword': '13288837481', 'token': 'token'}
+2025-05-06 18:04:10,480 - INFO - 响应信息: status_code=200, content={"code":0,"message":"Authorization Error","data":null}
+2025-05-06 18:04:10,480 - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/api/admin/user/updateUserPassword', 'headers': 'Access-Domain=zt', 'params': None, 'data': "{'id':'c39bf60707f64c108bf1ed7ae8641e9f','newPassword':'13288837481','token':'token'\n}", 'json': None, 'expected_status_code': 200}
+2025-05-06 18:04:10,619 - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/user/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}, json={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}
+2025-05-06 18:04:10,619 - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"data":"fe25ee10bebc413c845865baaca0ba10",
+	"message":"success"
+}
+2025-05-06 18:04:10,619 - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/user/open/user/login', 'headers': 'Access-Domain=zt', 'params': None, 'data': "{'userName': '13288837480',\n'password': '13288837480',\n'userType': '-1',\n'logPort': '0',\n'logType': '1',\n'domain': 'zt'}", 'json': None, 'expected_status_code': 200}
+2025-05-06 18:13:53,522 - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/user/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}, json={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}
+2025-05-06 18:13:53,525 - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"data":"de3b5976a3454b37bca10d5e30b8d0c3",
+	"message":"success"
+}
+2025-05-06 18:13:53,642 - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/api/admin/user/updateUserPassword, headers={'Access-Domain': 'zt'}, params=None, data={'id': 'c39bf60707f64c108bf1ed7ae8641e9f', 'newPassword': '13288837481', 'token': 'token'}, json={'id': 'c39bf60707f64c108bf1ed7ae8641e9f', 'newPassword': '13288837481', 'token': 'token'}
+2025-05-06 18:13:53,642 - INFO - 响应信息: status_code=200, content={"code":0,"message":"Authorization Error","data":null}
+2025-05-06 18:13:53,642 - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/api/admin/user/updateUserPassword', 'headers': 'Access-Domain=zt', 'params': None, 'data': "{'id':'c39bf60707f64c108bf1ed7ae8641e9f','newPassword':'13288837481','token':'token'\n}", 'json': None, 'expected_status_code': 200}
+2025-05-06 18:13:53,778 - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/user/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}, json={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}
+2025-05-06 18:13:53,779 - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"data":"d2f2e6f3284243e7bb6f492be9a2f07c",
+	"message":"success"
+}
+2025-05-07 10:28:05,445 - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/user/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}, json={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}
+2025-05-07 10:28:05,447 - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"data":"f81ce238dfe34b44bc29524e23921130",
+	"message":"success"
+}
+2025-05-07 10:28:05,447 - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/user/open/user/login', 'headers': 'Access-Domain=zt', 'params': None, 'data': "{'userName': '13288837480',\n'password': '13288837480',\n'userType': '-1',\n'logPort': '0',\n'logType': '1',\n'domain': 'zt'}", 'json': None, 'expected_status_code': 1001}
+2025-05-07 10:28:05,447 - INFO - 成功获取到 token: f81ce238dfe34b44bc29524e23921130
+2025-05-07 10:28:05,579 - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/api/admin/user/updateUserPassword, headers={'Access-Domain': 'zt', 'Authorization': 'Bearer f81ce238dfe34b44bc29524e23921130'}, params=None, data={'id': 'c39bf60707f64c108bf1ed7ae8641e9f', 'newPassword': '13288837481', 'token': 'f81ce238dfe34b44bc29524e23921130'}, json={'id': 'c39bf60707f64c108bf1ed7ae8641e9f', 'newPassword': '13288837481', 'token': 'f81ce238dfe34b44bc29524e23921130'}
+2025-05-07 10:28:05,580 - INFO - 响应信息: status_code=200, content={"code":0,"message":"Authorization Error","data":null}
+2025-05-07 10:28:05,580 - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/api/admin/user/updateUserPassword', 'headers': 'Access-Domain=zt', 'params': None, 'data': "{'id':'c39bf60707f64c108bf1ed7ae8641e9f',\n'newPassword':'13288837481',\n'token':'token'\n}", 'json': None, 'expected_status_code': 0}

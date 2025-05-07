@@ -26,11 +26,11 @@ def run_tests():
             report_file.close()
 
     # 发送测试报告邮件
-    try:
-        send_test_report()
-        print("测试报告邮件发送成功")
-    except Exception as e:
-        print(f"发送测试报告邮件时出错: {e}")
+    # try:
+    #     send_test_report()
+    #     print("测试报告邮件发送成功")
+    # except Exception as e:
+    #     print(f"发送测试报告邮件时出错: {e}")
 
 if __name__ == "__main__":
     run_tests()
