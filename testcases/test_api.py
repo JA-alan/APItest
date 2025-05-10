@@ -25,6 +25,7 @@ def generate_test_method(case):
             headers = {'Content-Type': 'application/json'}
         params = case.get('params')
         data = case.get('data')
+        form_data = case.get('form_data')
         json_data = case.get('json')
         expected_status_code = case.get('expected_status_code')
         try:
@@ -40,6 +41,13 @@ def generate_test_method(case):
             except json.JSONDecodeError:
                 logger.error(f"数据解析错误: {data}")
                 return
+        if form_data and isinstance(form_data, str):
+            try:
+                form_data = json.loads(form_data.replace("'", "\""))
+            except json.JSONDecodeError:
+                logger.error(f"数据解析错误: {form_data}")
+                return
+
 
         # 若 json_data 为 None，则使用 data 作为 json 参数
         if json_data is None and data:
@@ -47,7 +55,7 @@ def generate_test_method(case):
 
         # 如果不是第一个用例，且 token 已经获取到，将 token 添加到请求头和请求参数中
         if self.__class__.token:
-            headers['Authorization'] = f'Bearer {self.__class__.token}'
+            headers['access-token'] = self.__class__.token
             if json_data:
                 json_data['token'] = self.__class__.token
             elif data:
@@ -56,7 +64,7 @@ def generate_test_method(case):
                 params['token'] = self.__class__.token
 
         # 发送请求
-        response = send_request(method, url, headers=headers, params=params, json=json_data)
+        response = send_request(method, url, headers=headers, params=params, json=json_data,data=form_data)
 
         # 记录请求和响应信息
         logger.info(f"请求信息: method={method}, url={url}, headers={headers}, params={params}, data={data}, json={json_data}")
