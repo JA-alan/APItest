@@ -1,16 +1,16 @@
 import unittest
 from common.excel_utils import read_excel
 from common.request_utils import send_request
-from config.config import TEST_CASE_FILE
+from config.config import TEST_CASE_FILES
 import json
 from common.log_utils import logger
 
 class TestAPI(unittest.TestCase):
-    # 定义类属性来存储 token
-    token = None
+    # 定义类属性来存储不同文件的 token
+    file_tokens = {}
 
 # 动态生成测试方法
-def generate_test_method(case):
+def generate_test_method(case, file_path):
     def test_case(self):
         method = case.get('method')
         url = case.get('url')
@@ -48,23 +48,22 @@ def generate_test_method(case):
                 logger.error(f"数据解析错误: {form_data}")
                 return
 
-
         # 若 json_data 为 None，则使用 data 作为 json 参数
         if json_data is None and data:
             json_data = data
 
         # 如果不是第一个用例，且 token 已经获取到，将 token 添加到请求头和请求参数中
-        if self.__class__.token:
-            headers['access-token'] = self.__class__.token
+        if file_path in self.__class__.file_tokens:
+            headers['access-token'] = self.__class__.file_tokens[file_path]
             if json_data:
-                json_data['token'] = self.__class__.token
+                json_data['token'] = self.__class__.file_tokens[file_path]
             elif data:
-                data['token'] = self.__class__.token
+                data['token'] = self.__class__.file_tokens[file_path]
             elif params:
-                params['token'] = self.__class__.token
+                params['token'] = self.__class__.file_tokens[file_path]
 
         # 发送请求
-        response = send_request(method, url, headers=headers, params=params, json=json_data,data=form_data)
+        response = send_request(method, url, headers=headers, params=params, json=json_data, data=form_data)
 
         # 记录请求和响应信息
         logger.info(f"请求信息: method={method}, url={url}, headers={headers}, params={params}, data={data}, json={json_data}")
@@ -85,7 +84,7 @@ def generate_test_method(case):
                 if actual_code is not None:
                     actual_code = int(actual_code)
                     # 修改断言逻辑，允许 1001 和 0 为正确状态码
-                    if actual_code in [0, 1001] or actual_code == expected_status_code:
+                    if actual_code == expected_status_code:
                         logger.info(f"用例通过: {case}")
                     else:
                         self.assertEqual(actual_code, expected_status_code, f"用例失败: {case}")
@@ -97,28 +96,29 @@ def generate_test_method(case):
             self.fail("请求失败，未获取到响应信息")
 
         # 如果是第一个用例，尝试从响应中提取 access_token
-        if self._testMethodName == 'test_case_0':
+        if self._testMethodName.endswith('_0'):
             try:
                 response_data = response.json()
                 # 从 data 字段中提取 access_token
                 data_field = response_data.get('data')
                 if data_field:
-                    self.__class__.token = data_field
-                    logger.info(f"成功获取到 token: {data_field}")
+                    self.__class__.file_tokens[file_path] = data_field
+                    logger.info(f"成功从 {file_path} 获取到 token: {data_field}")
                 else:
-                    logger.error("未从第一个用例响应的 data 字段中获取到 access_token")
+                    logger.error(f"未从 {file_path} 第一个用例响应的 data 字段中获取到 access_token")
 
             except json.JSONDecodeError:
-                logger.error("无法解析第一个用例的响应为 JSON 格式")
+                logger.error(f"无法解析 {file_path} 第一个用例的响应为 JSON 格式")
 
     return test_case
 
-# 读取 Excel 中的测试用例
-cases = read_excel(TEST_CASE_FILE)
-for index, case in enumerate(cases):
-    test_method = generate_test_method(case)
-    test_method.__name__ = f'test_case_{index}'
-    setattr(TestAPI, test_method.__name__, test_method)
+# 读取多个 Excel 文件中的测试用例
+for file_path in TEST_CASE_FILES:
+    cases = read_excel(file_path)
+    for index, case in enumerate(cases):
+        test_method = generate_test_method(case, file_path)
+        test_method.__name__ = f'test_case_{file_path.replace("/", "_").replace(".", "_")}_{index}'
+        setattr(TestAPI, test_method.__name__, test_method)
 
 if __name__ == "__main__":
     unittest.main()
