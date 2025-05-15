@@ -2,6 +2,7 @@ import unittest
 from HTMLTestRunner import HTMLTestRunner
 from config.config import REPORT_DIR
 from common.email_utils import send_test_report
+from common.wechatbot_utils import send_to_wechatbot
 
 def run_tests():
     try:
@@ -31,6 +32,11 @@ def run_tests():
     #     print("测试报告邮件发送成功")
     # except Exception as e:
     #     print(f"发送测试报告邮件时出错: {e}")
+
+    #发送企微消息
+    webhook_url = ""
+    send_to_wechatbot(webhook_url)
+
 
 if __name__ == "__main__":
     run_tests()
