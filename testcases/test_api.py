@@ -66,7 +66,7 @@ def generate_test_method(case, file_path):
         response = send_request(method, url, headers=headers, params=params, json=json_data, data=form_data)
 
         # 记录请求和响应信息
-        logger.info(f"请求信息: method={method}, url={url}, headers={headers}, params={params}, data={data}, json={json_data}")
+        logger.info(f"请求信息: method={method}, url={url}, headers={headers}, params={params}, data={form_data}, json={json_data}")
         if response:
             try:
                 response_content = response.text
@@ -83,7 +83,6 @@ def generate_test_method(case, file_path):
                 actual_code = response_json.get('code')  # 从响应 JSON 中提取 code 字段
                 if actual_code is not None:
                     actual_code = int(actual_code)
-                    # 修改断言逻辑，允许 1001 和 0 为正确状态码
                     if actual_code == expected_status_code:
                         logger.info(f"用例通过: {case}")
                     else:

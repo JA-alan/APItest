@@ -1,27 +1,27 @@
-2025-05-10 16:18:49,258 - common.log_utils - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/user/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}, json={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}
-2025-05-10 16:18:49,259 - common.log_utils - INFO - 响应信息: status_code=200, content={
+2025-05-12 11:30:43,883 - common.log_utils - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/user/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data=None, json={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}
+2025-05-12 11:30:43,885 - common.log_utils - INFO - 响应信息: status_code=200, content={
 	"code":1001,
-	"data":"0b9fd4b539364740acd07a29cefd6609",
+	"data":"d38eebdeaf9341e4b24b830fa288236a",
 	"message":"success"
 }
-2025-05-10 16:18:49,259 - common.log_utils - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/user/open/user/login', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': None, 'data': "{'userName': '13288837480',\n'password': '13288837480',\n'userType': '-1',\n'logPort': '0',\n'logType': '1',\n'domain': 'zt'}", 'json': None, 'expected_status_code': 1001}
-2025-05-10 16:18:49,260 - common.log_utils - INFO - 成功从 D:\APItest\testcases\test_cases.xlsx 获取到 token: 0b9fd4b539364740acd07a29cefd6609
-2025-05-10 16:18:49,399 - common.log_utils - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/api/admin/user/updateUserPassword, headers={'Access-Domain': 'zt', 'access-token': '0b9fd4b539364740acd07a29cefd6609'}, params=None, data={'id': 'c39bf60707f64c108bf1ed7ae8641e9f', 'newPassword': '13288837481', 'token': '0b9fd4b539364740acd07a29cefd6609'}, json={'id': 'c39bf60707f64c108bf1ed7ae8641e9f', 'newPassword': '13288837481', 'token': '0b9fd4b539364740acd07a29cefd6609'}
-2025-05-10 16:18:49,399 - common.log_utils - INFO - 响应信息: status_code=200, content={
+2025-05-12 11:30:43,886 - common.log_utils - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/user/open/user/login', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': None, 'data': "{'userName': '13288837480',\n'password': '13288837480',\n'userType': '-1',\n'logPort': '0',\n'logType': '1',\n'domain': 'zt'}", 'json': None, 'expected_status_code': 1001}
+2025-05-12 11:30:43,886 - common.log_utils - INFO - 成功从 D:\APItest\testcases\test_cases.xlsx 获取到 token: d38eebdeaf9341e4b24b830fa288236a
+2025-05-12 11:30:44,029 - common.log_utils - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/api/admin/user/updateUserPassword, headers={'Access-Domain': 'zt', 'access-token': 'd38eebdeaf9341e4b24b830fa288236a'}, params=None, data=None, json={'id': 'c39bf60707f64c108bf1ed7ae8641e9f', 'newPassword': '13288837481', 'token': 'd38eebdeaf9341e4b24b830fa288236a'}
+2025-05-12 11:30:44,029 - common.log_utils - INFO - 响应信息: status_code=200, content={
 	"code":1001,
 	"message":"success"
 }
-2025-05-10 16:18:49,399 - common.log_utils - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/api/admin/user/updateUserPassword', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': None, 'data': "{'id':'c39bf60707f64c108bf1ed7ae8641e9f','newPassword':'13288837481','token':'token'\n}", 'json': None, 'expected_status_code': 1001}
-2025-05-10 16:18:49,654 - common.log_utils - INFO - 请求信息: method=post, url=https://test-api2.wsjw88.com/api/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data=None, json=None
-2025-05-10 16:18:49,654 - common.log_utils - INFO - 响应信息: status_code=200, content={
+2025-05-12 11:30:44,029 - common.log_utils - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/api/admin/user/updateUserPassword', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': None, 'data': "{'id':'c39bf60707f64c108bf1ed7ae8641e9f','newPassword':'13288837481','token':'token'\n}", 'json': None, 'expected_status_code': 1001}
+2025-05-12 11:30:44,641 - common.log_utils - INFO - 请求信息: method=post, url=https://test-api2.wsjw88.com/api/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data={'userName': '13288837480', 'password': '132888', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}, json=None
+2025-05-12 11:30:44,642 - common.log_utils - INFO - 响应信息: status_code=200, content={
 	"code":1001,
-	"data":"aaf00842158b434e84462581b64a9add",
+	"data":"ca481d261ce54bda83f0703e110e1bc1",
 	"message":"success"
 }
-2025-05-10 16:18:49,654 - common.log_utils - INFO - 用例通过: {'method': 'post', 'url': 'https://test-api2.wsjw88.com/api/open/user/login', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': "{'userName': '13288837480',\n'password': '132888',\n'userType': '-1',\n'logPort': '0',\n'logType': '1',\n'domain': 'zt'}", 'data': None, 'json': None, 'expected_status_code': 1001}
-2025-05-10 16:18:49,654 - common.log_utils - INFO - 成功从 D:\APItest\testcases\test_houtai.xlsx 获取到 token: aaf00842158b434e84462581b64a9add
-2025-05-10 16:18:50,042 - common.log_utils - INFO - 请求信息: method=get, url=https://test-api2.wsjw88.com/api/admin/twHelpCenter/queryAll, headers={'Access-Domain': 'zt', 'access-token': 'aaf00842158b434e84462581b64a9add'}, params=None, data=None, json=None
-2025-05-10 16:18:50,042 - common.log_utils - INFO - 响应信息: status_code=200, content={
+2025-05-12 11:30:44,642 - common.log_utils - INFO - 用例通过: {'method': 'post', 'url': 'https://test-api2.wsjw88.com/api/open/user/login', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': "{'userName': '13288837480',\n'password': '132888',\n'userType': '-1',\n'logPort': '0',\n'logType': '1',\n'domain': 'zt'}", 'data': None, 'json': None, 'expected_status_code': 1001}
+2025-05-12 11:30:44,642 - common.log_utils - INFO - 成功从 D:\APItest\testcases\test_houtai.xlsx 获取到 token: ca481d261ce54bda83f0703e110e1bc1
+2025-05-12 11:30:44,934 - common.log_utils - INFO - 请求信息: method=get, url=https://test-api2.wsjw88.com/api/admin/twHelpCenter/queryAll, headers={'Access-Domain': 'zt', 'access-token': 'ca481d261ce54bda83f0703e110e1bc1'}, params=None, data=None, json=None
+2025-05-12 11:30:44,934 - common.log_utils - INFO - 响应信息: status_code=200, content={
 	"code":1001,
 	"data":[
 		{
@@ -395,4 +395,474 @@
 	],
 	"message":"success"
 }
-2025-05-10 16:18:50,046 - common.log_utils - INFO - 用例通过: {'method': 'get', 'url': 'https://test-api2.wsjw88.com/api/admin/twHelpCenter/queryAll', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': None, 'data': None, 'json': None, 'expected_status_code': 1001}
+2025-05-12 11:30:44,941 - common.log_utils - INFO - 用例通过: {'method': 'get', 'url': 'https://test-api2.wsjw88.com/api/admin/twHelpCenter/queryAll', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': None, 'data': None, 'json': None, 'expected_status_code': 1001}
+2025-05-15 17:21:51,919 - common.log_utils - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/user/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data=None, json={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}
+2025-05-15 17:21:51,920 - common.log_utils - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"data":"27add00e343f4788a2623da4f0d3a613",
+	"message":"success"
+}
+2025-05-15 17:21:51,920 - common.log_utils - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/user/open/user/login', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': None, 'data': "{'userName': '13288837480',\n'password': '13288837480',\n'userType': '-1',\n'logPort': '0',\n'logType': '1',\n'domain': 'zt'}", 'json': None, 'expected_status_code': 1001}
+2025-05-15 17:21:51,920 - common.log_utils - INFO - 成功从 D:\APItest\testcases\test_cases.xlsx 获取到 token: 27add00e343f4788a2623da4f0d3a613
+2025-05-15 17:21:52,058 - common.log_utils - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/api/admin/user/updateUserPassword, headers={'Access-Domain': 'zt', 'access-token': '27add00e343f4788a2623da4f0d3a613'}, params=None, data=None, json={'id': 'c39bf60707f64c108bf1ed7ae8641e9f', 'newPassword': '13288837481', 'token': '27add00e343f4788a2623da4f0d3a613'}
+2025-05-15 17:21:52,058 - common.log_utils - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"message":"success"
+}
+2025-05-15 17:21:52,058 - common.log_utils - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/api/admin/user/updateUserPassword', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': None, 'data': "{'id':'c39bf60707f64c108bf1ed7ae8641e9f','newPassword':'13288837481','token':'token'\n}", 'json': None, 'expected_status_code': 1001}
+2025-05-15 17:21:52,331 - common.log_utils - INFO - 请求信息: method=post, url=https://test-api2.wsjw88.com/api/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data={'userName': '13288837480', 'password': '132888', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}, json=None
+2025-05-15 17:21:52,331 - common.log_utils - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"data":"736109fbe4414991b108fce13ccc9255",
+	"message":"success"
+}
+2025-05-15 17:21:52,331 - common.log_utils - INFO - 用例通过: {'method': 'post', 'url': 'https://test-api2.wsjw88.com/api/open/user/login', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': "{'userName': '13288837480',\n'password': '132888',\n'userType': '-1',\n'logPort': '0',\n'logType': '1',\n'domain': 'zt'}", 'data': None, 'json': None, 'expected_status_code': 1001}
+2025-05-15 17:21:52,331 - common.log_utils - INFO - 成功从 D:\APItest\testcases\test_houtai.xlsx 获取到 token: 736109fbe4414991b108fce13ccc9255
+2025-05-15 17:21:52,622 - common.log_utils - INFO - 请求信息: method=get, url=https://test-api2.wsjw88.com/api/admin/twHelpCenter/queryAll, headers={'Access-Domain': 'zt', 'access-token': '736109fbe4414991b108fce13ccc9255'}, params=None, data=None, json=None
+2025-05-15 17:21:52,622 - common.log_utils - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"data":[
+		{
+			"articleContent":"<h1><span style=\"color: rgb(222, 120, 2);\">增长因果大模型</span></h1><h2>立项</h2><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>用此功能进行立项，让AI深度了解您，同时为您生成解决方案。也是使用元梦客AI系统的第一步。<br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--输入模版：例如：我是美容行业，我的产品是美容培训,通过课程培训来交付客户--点击【确认】。<br></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><img src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/LddObayqOoRkBXxIUadcciWonEc/?fallback_source=1&height=1280&mount_node_token=IV5IdrNaqoVDaSxdhMIcVmSenib&mount_point=docx_image&policy=equal&width=1280\" alt=\"牛逼\" data-href=\"\" style=\"\"/></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--填写完整关于您的企业的相关内容信息，越细致越好。---点击【精准立项】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><img src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/VcEjbQ6QVo5Gyexv5sOc7Xm0nmg/?fallback_source=1&height=1280&mount_node_token=Nnfpd4KfMoVGroxKmISc07HQnZg&mount_point=docx_image&policy=equal&width=1280\" alt=\"\" data-href=\"\" style=\"\"/></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【开启企业AI之旅】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><img src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/HLu9bgNW9o2o6XxvZQmcf9v7n1f/?fallback_source=1&height=1280&mount_node_token=ExPQdP6KXor03xxQZ9DclVPsnmg&mount_point=docx_image&policy=equal&width=1280\" alt=\"\" data-href=\"\" style=\"\"/></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><img src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/BECvbOMd4oCqLnxI99rcEIi6nKh/?fallback_source=1&height=1280&mount_node_token=R85Jdoe3To7ScaxmpSjcvHmvnFd&mount_point=docx_image&policy=equal&width=1280\" alt=\"\" data-href=\"\" style=\"\"/></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--即可生成专属于你的专属立项内容。</td></tr></tbody></table><p><br></p>",
+			"articleTitle":"使用帮助1",
+			"articleTitleStrs":"<li id=\"title-w-e-element-0\" index=\"0\" type=\"header1\">增长因果大模型</li><li id=\"title-w-e-element-2\" index=\"0\" type=\"header2\">立项</li>",
+			"childList":[
+				{
+					"articleContent":"<pre><code class=\"language-python\">啊啊啊啊啊啊啊啊\nasdassafa \nasdasd \nasdqwe \nasdasd    \nasdqwrq\nasd</code></pre><p>阿是啊实打实</p><p>asaaa</p><p>1</p><p>1<img src=\"https://wsjw-test.oss-cn-shanghai.aliyuncs.com/temp/supper/0cb5015f8ed54c8eab6bc344dbc27632/2025/5/12/HnviRzLvpPM5RNsv.png?x-oss-process=image/resize,l_2000\" alt=\"\" data-href=\"\" style=\"\"/></p><p>1</p><p>1</p><p>1</p>",
+					"articleTitle":"十五个字的标题测试测试测试测试",
+					"articleTitleStrs":"",
+					"crName":"蒋安",
+					"crTime":"2025-05-08 16:39:43",
+					"id":"f2de18ef07834ca385c2efe53d2fda03",
+					"nodeCheck":false,
+					"parentId":"191dae368c5f4cedb64c4b3ca56914f2",
+					"type":1,
+					"usId":"b72bd0e0599840adab0cdd7f45812d47"
+				},
+				{
+					"articleContent":"<p><br></p><p>去去去啊</p><p>啊<span style=\"font-size: 12px;\">啊</span><span style=\"font-size: 29px;\">啊</span><span style=\"font-size: 48px;\">啊</span></p>",
+					"articleTitle":"测试滴滴答答大大啊啊啊啊",
+					"articleTitleStrs":"",
+					"crName":"蒋安",
+					"crTime":"2025-05-09 18:42:31",
+					"id":"56f7ef0865ab4cecb0dfce4b959983f0",
+					"nodeCheck":false,
+					"parentId":"191dae368c5f4cedb64c4b3ca56914f2",
+					"type":1,
+					"usId":"b72bd0e0599840adab0cdd7f45812d47"
+				},
+				{
+					"articleContent":"<ul><li><span style=\"background-color: rgb(66, 144, 247);\">knhhj</span></li><li><span style=\"background-color: rgb(66, 144, 247);\">hgjgghjj</span></li></ul>",
+					"articleTitle":"新建目录",
+					"articleTitleStrs":"",
+					"crName":"蒋安",
+					"crTime":"2025-05-09 19:26:30",
+					"id":"010a24ab3ce64539bc978f0ae185b736",
+					"nodeCheck":false,
+					"parentId":"191dae368c5f4cedb64c4b3ca56914f2",
+					"type":1,
+					"usId":"b72bd0e0599840adab0cdd7f45812d47"
+				},
+				{
+					"articleContent":"<p><span style=\"background-color: rgb(212, 177, 6); font-size: 48px;\">对对对你说的都对😷</span></p>",
+					"articleTitle":"新建目录",
+					"articleTitleStrs":"",
+					"crName":"蒋安",
+					"crTime":"2025-05-09 20:34:29",
+					"id":"7d1bfdb382f44a1db276cc25fea85d5b",
+					"nodeCheck":false,
+					"parentId":"191dae368c5f4cedb64c4b3ca56914f2",
+					"type":1,
+					"usId":"b72bd0e0599840adab0cdd7f45812d47"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-09 20:35:25",
+					"id":"4748f73069c0435daa7391c6cfabab49",
+					"nodeCheck":false,
+					"parentId":"191dae368c5f4cedb64c4b3ca56914f2",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 11:36:24",
+					"id":"46facdfdfe554473b9f65234f28a8ff5",
+					"nodeCheck":false,
+					"parentId":"191dae368c5f4cedb64c4b3ca56914f2",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 11:36:32",
+					"id":"f81a9564cd974ee692b54f01e2f323a9",
+					"nodeCheck":false,
+					"parentId":"191dae368c5f4cedb64c4b3ca56914f2",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				}
+			],
+			"crTime":"2025-05-06 15:26:23",
+			"id":"191dae368c5f4cedb64c4b3ca56914f2",
+			"nodeCheck":false,
+			"parentId":"0",
+			"type":0,
+			"usId":"supper"
+		},
+		{
+			"articleContent":"<p>规范制定人：产品经理（肖力，黎炎静）</p><p><strong>版本：1.0适用对象</strong>：产研测团队</p><h1>需求描述模版一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题</h1><h2>test</h2><h2>答复</h2><pre><code class=\"language-Markdown\">## 元梦客PC端产品结构改版\n### 需求来源：产品规划\n### 需求背景：现有PC端的产品业务结构过于分散，产品表现形态依旧更像是“AI工具”，而不是“AI员工”\n### 需求目标：完成元梦客PC端的“企业化”风格改造，让业务流程更聚焦在与“AI员工”的交流中完成业务闭环。\n### 用户故事：我希望元梦客AI员工能够更像真实员工一样能够让我在与他们的交流中帮助我完成一些目标。\n### 需求优先级：T0\n### 需求范围：首页 / 导航栏 / 聊天窗口 / 企业知识库\n### 业务影响面：整体\n### 需求原型图/链接：https://xxxxx.xxx\n### 需求描述：\n    1. xxxxxxxxxxxxxxxxx\n    2. xxxxxxxxxxxxxxxxx\n    3. xxxxxxxxxxxxxxxxx\n    4. xxxxxxxxxxxxxxxxx\n### 数据埋点表格/链接: https://xxxxx.xxx\n### UI链接：https://xxxxx.xxx\n### 测试用例链接：https://xxxxx.xxx\n\n\n\n</code></pre><h1>需求设计规范</h1><h2><strong>一、目的二级二级二级二级二级二级二级二级二级二级二级二级二级二级二级二级二级</strong></h2><ol><li style=\"text-align: left;\">统一需求文档编写标准，确保团队协作效率</li><li style=\"text-align: left;\">明确需求描述规则，降低沟通与开发成本</li><li style=\"text-align: left;\">建立需求可追溯体系，保障产品交付质量</li><li style=\"text-align: left;\">规范变更管理流程，控制项目风险</li><li style=\"text-align: left;\"></li></ol><hr/><p><br></p><h3><strong>二、适用范围三级三级三级三级三级三级三级三级三级三级三级三级三级三级三级三级三级三级</strong></h3><ol><li style=\"text-align: left;\">适用对象：产研测团队</li><li style=\"text-align: left;\">适用场景：新产品功能规划迭代需求设计注：bug缺陷类需求不遵从此规范</li><li style=\"text-align: left;\"></li></ol><hr/><p><br></p><h4><strong>三、产品需求设计核心原则四级四级四级四级四级四级四级四级四级四级四级四级四级</strong></h4><ol><li>符合同类业务/功能入口设计一致性</li><li>符合业务完整闭环原则性</li><li>需求场景描述符合全场景覆盖严谨性</li><li>高频功能触达路径符合用户体验轻量便捷性</li><li>需求设计符合数据指标和追溯性</li></ol><h5>五级五级五级五级五级五级五级五级五级五级五级五级五级五级五级五级五级五级</h5><p><br></p><p><br></p>",
+			"articleTitle":"常见问题",
+			"articleTitleStrs":"<li id=\"title-w-e-element-24\" index=\"0\" type=\"header1\">需求描述模版一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题</li><li id=\"title-w-e-element-26\" index=\"0\" type=\"header2\">test</li><li id=\"title-w-e-element-28\" index=\"1\" type=\"header2\">答复</li><li id=\"title-w-e-element-33\" index=\"1\" type=\"header1\">需求设计规范</li><li id=\"title-w-e-element-35\" index=\"2\" type=\"header2\">一、目的二级二级二级二级二级二级二级二级二级二级二级二级二级二级二级二级二级</li><li id=\"title-w-e-element-51\" index=\"0\" type=\"header3\">二、适用范围三级三级三级三级三级三级三级三级三级三级三级三级三级三级三级三级三级三级</li><li id=\"title-w-e-element-63\" index=\"0\" type=\"header4\">三、产品需求设计核心原则四级四级四级四级四级四级四级四级四级四级四级四级四级</li><li id=\"title-w-e-element-111\" index=\"0\" type=\"header5\">五级五级五级五级五级五级五级五级五级五级五级五级五级五级五级五级五级五级</li>",
+			"childList":[
+				{
+					"articleContent":"<h1>测试一号标题</h1><h2>二号标题</h2><h3>三号标题</h3><h4>四号标题</h4><h5>五号标题</h5><p>正文</p><p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa1111111111111</p>",
+					"articleTitle":"5月6日问题汇总",
+					"articleTitleStrs":"<li id=\"title-w-e-element-0\" index=\"0\" type=\"header1\">测试一号标题</li><li id=\"title-w-e-element-2\" index=\"0\" type=\"header2\">二号标题</li><li id=\"title-w-e-element-4\" index=\"0\" type=\"header3\">三号标题</li><li id=\"title-w-e-element-6\" index=\"0\" type=\"header4\">四号标题</li><li id=\"title-w-e-element-8\" index=\"0\" type=\"header5\">五号标题</li>",
+					"crName":"何磊",
+					"crTime":"2025-05-06 15:54:18",
+					"id":"29b984b69f384ca7878ef111b41aea78",
+					"nodeCheck":false,
+					"parentId":"2100b07f2fd44bba8e5295acc89dc052",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"<h1>1212</h1><p>1212</p><p>12</p><p>12</p><p>12</p><p>21<img src=\"https://wsjw-test.oss-cn-shanghai.aliyuncs.com/temp/supper/supper/2025/5/6/awgX6M7Uzz3xggMb.jpg?x-oss-process=image/resize,l_200\" alt=\"\" data-href=\"\" style=\"\"/></p><div data-w-e-type=\"video\" data-w-e-is-void>\n<video poster=\"\" controls=\"true\" width=\"auto\" height=\"auto\"><source src=\"https://wsjw-test.oss-cn-shanghai.aliyuncs.com/temp/supper/resources/69595688-046a-4ce5-9305-d506840f950e.mp4\" type=\"video/mp4\"/></video>\n</div><p><br></p>",
+					"articleTitle":"5月问题汇总",
+					"articleTitleStrs":"<li id=\"title-w-e-element-44\" type=\"header1\">1212</li>",
+					"crName":"何磊",
+					"crTime":"2025-05-06 16:57:00",
+					"id":"3066047745a24dc889fff120ddcfcd7f",
+					"nodeCheck":false,
+					"parentId":"2100b07f2fd44bba8e5295acc89dc052",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"<ul><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>网络连接异常</strong></span>：检查你的电脑网络连接是否正常，可尝试访问一些外部网站，看是否能正常打开。如果网络连接存在问题，修复网络故障后再尝试让同事 ping 你的电脑。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>防火墙限制</strong></span>：Windows 系统自带的防火墙或其他安装的安全软件可能会阻止 ping 请求。你可以暂时关闭防火墙或在防火墙设置中添加允许 ICMP（ping 命令使用的协议）通过的规则。以 Windows 系统自带防火墙为例，打开 “控制面板”，进入 “Windows Defender 防火墙”，点击 “高级设置”，在 “入站规则” 中找到 “文件和打印机共享（回显请求 - ICMPv4-In）”，将其状态设置为 “已启用”。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>用户权限问题</strong></span>：确</li></ul><h4>四号烦人</h4><p><br></p><p>asdasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p><hr/><ul><li style=\"text-align: start;\"></li><li style=\"text-align: start;\"><span style=\"background-color: rgb(8, 151, 156); font-size: 16px;\"><strong>网络连接异常</strong></span><span style=\"background-color: rgb(8, 151, 156);\">：检查你的电脑网络连接是否正常，可尝试访问一些外部网站，看是否能正常打开。如果网络连接存在问题，修复网络故障后再尝试让同事 ping 你的电脑。</span></li><li style=\"text-align: start;\"><span style=\"background-color: rgb(8, 151, 156); font-size: 16px;\"><strong>防火墙限制</strong></span><span style=\"background-color: rgb(8, 151, 156);\">：Windows 系统自带的防火墙或其他安装的安全软件可能会阻止 ping 请求。你可以暂时关闭防火墙或在防火墙设置中添加允许 ICMP（ping 命令使用的协议）通过的规则。以 Windows 系统自带防火墙为例，打开 “控制面板”，进入 “Windows Defender 防火墙”，点击 “高级设置”，在 “入站规则” 中找到 “文件和打印机共享（回显请求 - ICMPv4-In）”，将其状态设置为 “已启用”。</span></li><li style=\"text-align: start;\"><span style=\"background-color: rgb(8, 151, 156); font-size: 16px;\"><strong>用户权限问题</strong></span><span style=\"background-color: rgb(8, 151, 156);\">：确</span></li></ul><h5>五号</h5><ul><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>网络连接异常</strong></span>：检查你的电脑网络连接是否正常，可尝试访问一些外部网站，看是否能正常打开。如果网络连接存在问题，修复网络故障后再尝试让同事 ping 你的电脑。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>防火墙限制</strong></span>：Windows 系统自带的防火墙或其他安装的安全软件可能会阻止 ping 请求。你可以暂时关闭防火墙或在防火墙设置中添加允许 ICMP（ping 命令使用的协议）通过的规则。以 Windows 系统自带防火墙为例，打开 “控制面板”，进入 “Windows Defender 防火墙”，点击 “高级设置”，在 “入站规则” 中找到 “文件和打印机共享（回显请求 - ICMPv4-In）”，将其状态设置为 “已启用”。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>用户权限问题</strong></span>：确</li></ul><h3>三号</h3><h3 style=\"text-align: start;\">网络连接与权限问题</h3><ul><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>网络连接异常</strong></span>：检查你的电脑网络连接是否正常，可尝试访问一些外部网站，看是否能正常打开。如果网络连接存在问题，修复网络故障后再尝试让同事 ping 你的电脑。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>防火墙限制</strong></span>：Windows 系统自带的防火墙或其他安装的安全软件可能会阻止 ping 请求。你可以暂时关闭防火墙或在防火墙设置中添加允许 ICMP（ping 命令使用的协议）通过的规则。以 Windows 系统自带防火墙为例，打开 “控制面板”，进入 “Windows Defender 防火墙”，点击 “高级设置”，在 “入站规则” 中找到 “文件和打印机共享（回显请求 - ICMPv4-In）”，将其状态设置为 “已启用”。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>用户权限问题</strong></span>：确保你的电脑账户具有足够的权限来响应网络请求。某些情况下，受限账户可能会限制网络访问。</li></ul><h3 style=\"text-align: start;\">IP 地址与网络设置问题</h3><ul><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>IP 地址冲突</strong></span>：检查你的电脑 IP 地址是否与办公室其他设备冲突。如果冲突，会导致网络通信异常。你可以在 “控制面板” 中进入 “网络和共享中心”，点击当前网络连接，选择 “属性”，双击 “Internet 协议版本 4（TCP/IPv4）”，查看 IP 地址设置。如果是手动设置的 IP 地址，尝试更换一个未被使用的地址；如果是自动获取 IP 地址，可以尝试通过命令提示符（管理员权限）输入<span style=\"color: rgb(0, 0, 0); font-size: 14px;\"><code>ipconfig /release</code></span>和<span style=\"color: rgb(0, 0, 0); font-size: 14px;\"><code>ipconfig /renew</code></span>来重新获取 IP 地址。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>子网掩码、网关或 DNS 设置错误</strong></span>：不正确的子网掩码、网关或 DNS 设置可能影响网络通信。确认这些设置与办公室网络环境匹配。你可以向同事或网络管理员询问正确的设置信息，并在 “Internet 协议版本 4（TCP/IPv4）” 属性中进行相应修改。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>网络接口故障</strong></span>：排查电脑的网络接口（如网卡）是否正常工作。可以尝试重启电脑的网络接口，或更换网络接口（如果有多个）。在 “设备管理器” 中找到 “网络适配器”，右键点击对应的网卡，选择 “禁用”，然后再右键点击选择 “启用”，看是否能解决问题。</li></ul><h2 style=\"text-align: start;\">二级</h2><h3 style=\"text-align: start;\">网络连接与权限问题</h3><ul><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>网络连接异常</strong></span>：检查你的电脑网络连接是否正常，可尝试访问一些外部网站，看是否能正常打开。如果网络连接存在问题，修复网络故障后再尝试让同事 ping 你的电脑。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>防火墙限制</strong></span>：Windows 系统自带的防火墙或其他安装的安全软件可能会阻止 ping 请求。你可以暂时关闭防火墙或在防火墙设置中添加允许 ICMP（ping 命令使用的协议）通过的规则。以 Windows 系统自带防火墙为例，打开 “控制面板”，进入 “Windows Defender 防火墙”，点击 “高级设置”，在 “入站规则” 中找到 “文件和打印机共享（回显请求 - ICMPv4-In）”，将其状态设置为 “已启用”。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>用户权限问题</strong></span>：确保你的电脑账户具有足够的权限来响应网络请求。某些情况下，受限账户可能会限制网络访问。</li></ul><h3 style=\"text-align: start;\">IP 地址与网络设置问题</h3><ul><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>IP 地址冲突</strong></span>：检查你的电脑 IP 地址是否与办公室其他设备冲突。如果冲突，会导致网络通信异常。你可以在 “控制面板” 中进入 “网络和共享中心”，点击当前网络连接，选择 “属性”，双击 “Internet 协议版本 4（TCP/IPv4）”，查看 IP 地址设置。如果是手动设置的 IP 地址，尝试更换一个未被使用的地址；如果是自动获取 IP 地址，可以尝试通过命令提示符（管理员权限）输入<span style=\"color: rgb(0, 0, 0); font-size: 14px;\"><code>ipconfig /release</code></span>和<span style=\"color: rgb(0, 0, 0); font-size: 14px;\"><code>ipconfig /renew</code></span>来重新获取 IP 地址。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>子网掩码、网关或 DNS 设置错误</strong></span>：不正确的子网掩码、网关或 DNS 设置可能影响网络通信。确认这些设置与办公室网络环境匹配。你可以向同事或网络管理员询问正确的设置信息，并在 “Internet 协议版本 4（TCP/IPv4）” 属性中进行相应修改。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>网络接口故障</strong></span>：排查电脑的网络接口（如网卡）是否正常工作。可以尝试重启电脑的网络接口，或更换网络接口（如果有多个）。在 “设备管理器” 中找到 “网络适配器”，右键点击对应的网卡，选择 “禁用”，然后再右键点击选择 “启用”，看是否能解决问题。</li></ul><h3 style=\"text-align: start;\">电脑睡眠或休眠模式</h3><ul><li style=\"text-align: start;\">若电脑进入睡眠或休眠模式，可能会限制网络连接。检查电脑的电源设置，将其调整为 “高性能” 模式或其他不会使电脑进入睡眠或休眠的模式。在 “控制面板” 中进入 “电源选项”，选择 “高性能”，并点击 “更改计划设置”，将 “用电池” 和 “接通电源” 情景下的 “关闭显示器” 时间和 “使计算机进入睡眠状态” 时间都调整为 “从不”。</li></ul><h1 style=\"text-align: start;\">一级</h1><p><span style=\"color: rgb(28, 31, 35); background-color: rgb(255, 255, 255);\">&lt;VirtualHost *:443&gt; ServerName jenkins.example.com # SSL配置 SSLEngine on SSLCertificateFile /path/to/cert.pem SSLCertificateKeyFile /path/to/key.pem # 反向代理配置 ProxyRequests Off ProxyPreserveHost On &lt;Proxy *&gt; Order deny,allow Allow from all &lt;/Proxy&gt; ProxyPass / http://localhost:8080/ ProxyPassReverse / http://localhost:8080/ # WebSocket支持 RewriteEngine On RewriteCond %{HTTP:Upgrade} =websocket [NC] RewriteRule /(.*) ws://localhost:8080/$1 [P,L] &lt;/VirtualHost&gt;&lt;VirtualHost *:443&gt; ServerName jenkins.example.com # SSL配置 SSLEngine on SSLCertificateFile /path/to/cert.pem SSLCertificateKeyFile /path/to/key.pem # 反向代理配置 ProxyRequests Off ProxyPreserveHost On &lt;Proxy *&gt; Order deny,allow Allow from all &lt;/Proxy&gt; ProxyPass / http://localhost:8080/ ProxyPassReverse / http://localhost:8080/ # WebSocket支持 RewriteEngine On RewriteCond %{HTTP:Upgrade} =websocket [NC] RewriteRule /(.*) ws://localhost:8080/$1 [P,L] &lt;/VirtualHost&gt;&lt;VirtualHost *:443&gt; ServerName jenkins.example.com # SSL配置 SSLEngine on SSLCertificateFile /path/to/cert.pem SSLCertificateKeyFile /path/to/key.pem # 反向代理配置 ProxyRequests Off ProxyPreserveHost On &lt;Proxy *&gt; Order deny,allow Allow from all &lt;/Proxy&gt; ProxyPass / http://localhost:8080/ ProxyPassReverse / http://localhost:8080/ # WebSocket支持 RewriteEngine On RewriteCond %{HTTP:Upgrade} =websocket [NC] RewriteRule /(.*) ws://localhost:8080/$1 [P,L] &lt;/VirtualHost&gt;&lt;VirtualHost *:443&gt; ServerName jenkins.example.com # SSL配置 SSLEngine on SSLCertificateFile /path/to/cert.pem SSLCertificateKeyFile /path/to/key.pem # 反向代理配置 ProxyRequests Off ProxyPreserveHost On &lt;Proxy *&gt; Order deny,allow Allow from all &lt;/Proxy&gt; ProxyPass / http://localhost:8080/ ProxyPassReverse / http://localhost:8080/ # WebSocket支持 RewriteEngine On RewriteCond %{HTTP:Upgrade} =websocket [NC] RewriteRule /(.*) ws://localhost:8080/$1 [P,L] &lt;/VirtualHost&gt;</span></p><ul><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>网络连接异常</strong></span>：检查你的电脑网络连接是否正常，可尝试访问一些外部网站，看是否能正常打开。如果网络连接存在问题，修复网络故障后再尝试让同事 ping 你的电脑。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>防火墙限制</strong></span>：Windows 系统自带的防火墙或其他安装的安全软件可能会阻止 ping 请求。你可以暂时关闭防火墙或在防火墙设置中添加允许 ICMP（ping 命令使用的协议）通过的规则。以 Windows 系统自带防火墙为例，打开 “控制面板”，进入 “Windows Defender 防火墙”，点击 “高级设置”，在 “入站规则” 中找到 “文件和打印机共享（回显请求 - ICMPv4-In）”，将其状态设置为 “已启用”。</li><li style=\"text-align: start;\"><span style=\"font-size: 16px;\"><strong>用户权限问题</strong></span>：确</li></ul>",
+					"articleTitle":"目录",
+					"articleTitleStrs":"<li id=\"title-w-e-element-260\" index=\"0\" type=\"header4\">四号烦人</li><li id=\"title-w-e-element-170\" index=\"0\" type=\"header5\">五号</li><li id=\"title-w-e-element-172\" index=\"0\" type=\"header3\">三号</li><li id=\"title-w-e-element-176\" index=\"1\" type=\"header3\">网络连接与权限问题</li><li id=\"title-w-e-element-187\" index=\"2\" type=\"header3\">IP 地址与网络设置问题</li><li id=\"title-w-e-element-203\" index=\"0\" type=\"header2\">二级</li><li id=\"title-w-e-element-207\" index=\"3\" type=\"header3\">网络连接与权限问题</li><li id=\"title-w-e-element-218\" index=\"4\" type=\"header3\">IP 地址与网络设置问题</li><li id=\"title-w-e-element-233\" index=\"5\" type=\"header3\">电脑睡眠或休眠模式</li><li id=\"title-w-e-element-238\" index=\"0\" type=\"header1\">一级</li>",
+					"crName":"蒋安",
+					"crTime":"2025-05-08 16:18:25",
+					"id":"726888eb6e1e4eca8dcf64586c448408",
+					"nodeCheck":false,
+					"parentId":"2100b07f2fd44bba8e5295acc89dc052",
+					"type":1,
+					"usId":"b72bd0e0599840adab0cdd7f45812d47"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 11:23:25",
+					"id":"ba29fd17b368452a89fa28c270c77c3d",
+					"nodeCheck":false,
+					"parentId":"2100b07f2fd44bba8e5295acc89dc052",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				}
+			],
+			"crTime":"2025-05-06 15:26:58",
+			"id":"2100b07f2fd44bba8e5295acc89dc052",
+			"nodeCheck":false,
+			"parentId":"0",
+			"type":0,
+			"usId":"supper"
+		},
+		{
+			"articleContent":"<h1>测试11</h1>",
+			"articleTitle":"更新日志",
+			"articleTitleStrs":"<li id=\"title-w-e-element-96\" type=\"header1\">测试11</li>",
+			"childList":[
+				{
+					"articleContent":"<h1>一级目录</h1><p>1111111111aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa1111111111111</p><h2>二级目录</h2><p>2222222222aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa222222222222</p><h3>三级目录</h3><p>33333333333333aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa333333333333333333</p><h4>四级目录</h4><p>444444444444444aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa444444444444444444</p><h5>五级目录</h5><p>555555555555aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa5555555555555555555</p>",
+					"articleTitle":"日志1",
+					"articleTitleStrs":"<li id=\"title-w-e-element-185\" index=\"0\" type=\"header1\">一级目录</li><li id=\"title-w-e-element-187\" index=\"0\" type=\"header2\">二级目录</li><li id=\"title-w-e-element-189\" index=\"0\" type=\"header3\">三级目录</li><li id=\"title-w-e-element-191\" index=\"0\" type=\"header4\">四级目录</li><li id=\"title-w-e-element-193\" index=\"0\" type=\"header5\">五级目录</li>",
+					"crTime":"2025-05-08 11:54:41",
+					"id":"ca9649c7a2db473a96dbb19940ac9585",
+					"nodeCheck":false,
+					"parentId":"3b0b8399fe3e4ab3a6b43bed00c8df52",
+					"type":1,
+					"usId":"supper"
+				},
+				{
+					"articleContent":"<ol><li>一级目录</li><li>二级目录</li><li>三级目录</li><li><strong>四级目录 </strong> &nbsp;</li><li style=\"line-height: 1;\"></li><li></li></ol><div data-w-e-type=\"todo\"><input type=\"checkbox\" disabled >啊撒大声地</div><div data-w-e-type=\"todo\"><input type=\"checkbox\" disabled ></div><table style=\"width: auto;\"><tbody><tr><th colSpan=\"1\" rowSpan=\"1\" width=\"auto\">阿萨德</th><th colSpan=\"1\" rowSpan=\"1\" width=\"auto\">阿萨德</th><th colSpan=\"1\" rowSpan=\"1\" width=\"auto\">大去</th><th colSpan=\"1\" rowSpan=\"1\" width=\"auto\">去</th><th colSpan=\"1\" rowSpan=\"1\" width=\"auto\">我</th><th colSpan=\"1\" rowSpan=\"1\" width=\"auto\">饿</th><th colSpan=\"1\" rowSpan=\"1\" width=\"auto\">c人</th></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">阿萨德</td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">文文<br>深<br>深</td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">wwwwwwwwwwwww</td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">wwwwwwwwwwwwwwwww</td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">wwwwwww<br>wwwwwwwwwww</td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">1</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr></tbody></table><ul><li>阿萨德</li></ul><p> <a href=\"https://www.baidu.com\" target=\"_blank\">百度</a> &nbsp;<img src=\"https://img1.baidu.com/it/u=2252271165,1118213730&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667\" alt=\"啊撒大声地\" data-href=\"https://img1.baidu.com/it/u=2252271165,1118213730&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667\" style=\"\"/></p><ul><li>阿萨德</li><li>去去去</li></ul><p>一记重拳<br>阿斯顿请问</p><p>啧啧啧</p><p>出错阿萨德 &nbsp; 阿萨</p><p><img src=\"https://wsjw-test.oss-cn-shanghai.aliyuncs.com/temp/supper/b72bd0e0599840adab0cdd7f45812d47/2025/5/8/87IQGVAVYhZUzHzm.png?x-oss-process=image/resize,l_200\" alt=\"\" data-href=\"\" style=\"width: 30%;\"/><img src=\"https://image.baidu.com/search/detail?adpicid=0&bdtype=0&commodity=&copyright=&cs=2191788492%2C2867964923&di=7490230549689139201&fr=click-pic&fromurl=http%253A%252F%252Fwww.douyin.com%252Fnote%252F7391034606134332706&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=3894948387%2C1763810671&isImgSet=&latest=&lid=11224568791015558698&lm=&objurl=https%253A%252F%252Fp3-pc-sign.douyinpic.com%252Ftos-cn-i-0813%252FoAB2eZIAErALyIHdEj7fQJeMAWGnBEAQTAZNKk~tplv-dy-aweme-images%253Aq75.webp&os=3894948387%2C1763810671&pd=image_content&pi=0&pn=3&rn=1&simid=3497767355%2C426859309&tn=baiduimagedetail&width=0&word=%E7%BE%8E%E9%A3%9F%E5%9B%BE%E7%89%87&z=\" alt=\"美食\" data-href=\"https://image.baidu.com/search/detail?adpicid=0&bdtype=0&commodity=&copyright=&cs=2191788492,2867964923&di=7490230549689139201&fr=click-pic&fromurl=http://www.douyin.com/note/7391034606134332706&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=3894948387,1763810671&isImgSet=&latest=&lid=11224568791015558698&lm=&objurl=https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/oAB2eZIAErALyIHdEj7fQJeMAWGnBEAQTAZNKk~tplv-dy-aweme-images:q75.webp&os=3894948387,1763810671&pd=image_content&pi=0&pn=3&rn=1&simid=3497767355,426859309&tn=baiduimagedetail&width=0&word=美食图片&z=\" style=\"width: 30%;\"/></p><div data-w-e-type=\"video\" data-w-e-is-void>\n<video poster=\"\" controls=\"true\" width=\"auto\" height=\"auto\"><source src=\"https://wsjw-test.oss-cn-shanghai.aliyuncs.com/temp/supper/resources/ad1ff3c4-2d10-4200-9cec-6794bef4490c.mp4\" type=\"video/mp4\"/></video>\n</div><table style=\"width: auto;\"><tbody><tr><th colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></th><th colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></th><th colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></th><th colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></th></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr></tbody></table><p><br></p>",
+					"articleTitle":"目录层级验证",
+					"articleTitleStrs":"",
+					"crName":"蒋安",
+					"crTime":"2025-05-08 17:31:08",
+					"id":"11f41238b4d149d1b5faf6f8194fa112",
+					"nodeCheck":false,
+					"parentId":"3b0b8399fe3e4ab3a6b43bed00c8df52",
+					"type":1,
+					"usId":"b72bd0e0599840adab0cdd7f45812d47"
+				}
+			],
+			"crTime":"2025-05-06 15:27:06",
+			"id":"3b0b8399fe3e4ab3a6b43bed00c8df52",
+			"nodeCheck":false,
+			"parentId":"0",
+			"type":0,
+			"usId":"supper"
+		},
+		{
+			"articleTitle":"使用帮助",
+			"childList":[
+				{
+					"articleContent":"<h1><span style=\"color: rgb(222, 120, 2);\">增长因果大模型</span></h1><h2>立项</h2><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>用此功能进行立项，让AI深度了解您，同时为您生成解决方案。也是使用元梦客AI系统的第一步。<br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--输入模版：例如：我是美容行业，我的产品是美容培训,通过课程培训来交付客户--点击【确认】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><img src=\"https://wsjw-test.oss-cn-shanghai.aliyuncs.com/temp/supper/0cb5015f8ed54c8eab6bc344dbc27632/2025/5/9/mLU7U6NVJKjctqk1.png?x-oss-process=image/resize,l_2000\" alt=\"\" data-href=\"\" style=\"\"/></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--填写完整关于您的企业的相关内容信息，越细致越好。---点击【精准立项】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><img src=\"https://wsjw-test.oss-cn-shanghai.aliyuncs.com/temp/supper/0cb5015f8ed54c8eab6bc344dbc27632/2025/5/9/EMKjo6Jxa0IFB6cN.png?x-oss-process=image/resize,l_2000\" alt=\"\" data-href=\"\" style=\"width: 1102.00px;height: 542.67px;\"/></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【开启企业AI之旅】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--即可生成专属于你的专属立项内容。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h1><span style=\"color: rgb(222, 120, 2);\">流量部门</span></h1><h2><u>内容选题员</u></h2><p><br></p><p><br></p><h4>创意灵感</h4><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>对短视频的选题寻找创作的灵感，有全网热点和关联灵感进行推荐。</p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【内容选题】--选择员工能力，点击【创意灵感】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--可以根据行业热点或实时热点进行【AI一键生成文案】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--也可以查看创作历史进行浏览。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br></td></tr></tbody></table><h2><u>文案编导</u></h2><p><br></p><h4>视频拆解</h4><p><br></p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>迅速拆解视频的脚本结构。</p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【文案编导】--【视频拆解】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--输入短视频的链接或上传短视频--点击【拆解结构】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--即可拆解出短时频的脚本结构口播文案等。也可以迅速使用此脚本进行混剪。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--骨肉皮分析、作品评分、钩子分析、脚本配音、热点创作文案、AI结构衍生、AI脚本改写，这些功能可以帮助您更快速理解这条短视频的会成为爆款的原因。同时可以进行AI改写生成出专属于您自己行业的爆款视频结构。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--骨肉皮分析可以快速的利用AI拆解出短视频的骨肉皮结构。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--【钩子分析】更能清晰的体现这个视频的钩子点是什么。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--【AI脚本改写】可以快速的输入您自己行业或业务的需求快速生成同款短视频脚本。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br></td></tr></tbody></table><h4>爆款视频</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>输入关键字，搜索有效视频。<br></p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【文案编导】--【爆款视频】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--输入行业关键词--点击‘小飞机图标’进行【搜索】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--爆款视频会被索引出来，同时也可以进行对视频的拆解。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br></td></tr></tbody></table><h4>同行监控</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>每日监控同行账号发布的视频。快速了解你的同行在做什么样的视频。<br><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--打开电脑浏览器，搜索抖音网页版，点击想要的博主的名称或头像。进入博主主页后，复制此链接。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【文案编导】--【同行监控】--【添加关注】--将复制好的账号主页链接--输入搜索框内--点击【搜索】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br></td></tr></tbody></table><h4>AI爆款脚本改写</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>将爆款的脚本文案进行改写成专属于您自己的爆款脚本。</p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--将拆解完的视频文案复制后，点击【文案编导】--【AI爆款脚本改写】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--【文案改写】--粘贴输入文案--输入改写要求--点击【确定】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br></td></tr></tbody></table><h4>爆款结构</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>各个行业的有效爆款脚本结构。</p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【文案编导】--【爆款结构】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--输入关键词搜索行业的爆款文案。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h4>视频转文案</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>快速拆解爆款视频的文案内容。<br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【文案编导】--【视频转文案】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--粘贴视频的链接或上传短视频即可将视频的文案提取出来。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h2><u>视频剪辑师</u></h2><p><br></p><h4>数字人视频</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍： </span></p><p>上传人物视频，生成您的专属数字人替身。</p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\"><br></span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【视频剪辑师】--【数字人视频】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--数字人短视频、音频创作、数字人克隆、声音克隆。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--数字人短视频--选择数字人、选择背景、上传音频或者文本转音频--点击【立即合成视频】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--音频创作--将文案快速合成AI或个人定制的声音。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--数字人克隆--【极速克隆】--按照要求拍摄和上传视频可以生成自己的数字人形象。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--数字人的录制要求。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--声音克隆--按照要求录制和上传音频可以生成自己的定制声音。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--声音克隆录制要求。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br></td></tr></tbody></table><h4>极速克隆</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>快速克隆数字人分身。<br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--视频剪辑师--【极速克隆】--生成数字人视频。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--【声音克隆】--生成个人定制数字声音。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h4>视频出海</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>视频可翻译成各国语言。</p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【视频剪辑师】--【视频出海】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击页面中间‘添加’图标上传视频（单次只允许上传一个视频，要求30s--5min，当前版本仅适用于单人脸视频（不可能出现多人脸，含照片），若人脸未正向面对镜头，会影响嘴型训练效果。）--选择视频--点击【确定】--等待视频生成完毕。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h4>一键成片</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>根据已有的素材进行一键成片。</p><p><br></p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【视频剪辑师】--【一键成片】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【AI一键成片】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--选择视频素材--点击【确定】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--选择设置口播方案--输入口播内容的关键词，每一个关键词用‘、’隔开--选择口播音色--选择视频生成条数（最高100）--选择视频时长（最高35S）--选择画面比例--高级设置中可以设置视频的原声是否关闭、AI标题是否开启、背景音乐是否开启、AI配音是否开启--点击【立即生成】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h4>混剪工具</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>可以批量混剪视频。</p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【视频剪辑师】--【混剪工具】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【立即创建】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--编辑视频的名称、视频的比例、分辨率、保存位置（这里是指账号中成品视频库中的保存位置并非电脑系统的）。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--来到混剪界面--为混剪视频添加分镜。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">----点击‘加号’图标--选择视频素材进行添加。也可以上传新的视频素材。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--接下来需要上传口播音频，第一个方法‘‘全局音频’’的设置方法（放一段音频上去，从头说到尾）：在【音频】--【添加口播】--选择或上传声音。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--上传口播音频的第二种方法‘‘组内音频’’：（可以自动根据你上传的音频进行裁剪视频）：在【素材】分镜中点击【设置】图标--点击【组内音频】--长传音频--最后将时长设置成与组内音频的时长一致。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--接下来给视频加一段背景音乐--点击【音乐】--添加背景音乐。也可以上传本地的音乐。同时如果混剪多个视频的情况下音乐是可以多选会自动随机分配到每个视频中。这里要注意调整一下背景音乐的音量。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--接下来给混剪视频添加标题--点击【标题】--直接编辑标题内容--点击【样式设置】--调整标题的字体样式与位置。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--需要的话也可以给视频添加贴纸--点击【贴纸】--【添加贴纸】--【选择】或者【上传贴纸】（上传的贴纸格式可以是图片.JPG或者视频.MP4，）--选择贴纸的开始和结束时间--可以自由拖动贴纸显示的位置和按比例进行缩放调整。--通过在贴纸的功能中添加视频的形式是可以达到视频画中画的效果的。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--为视频设置封面--点击【封面】--【添加封面】--添加贴纸或者本地上传。混剪多个视频的情况下，视频封面是可以进行上传多个的，封面会随机对应分配每个视频的。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--最后检查一下视频原声有没有关闭--点击【属性面板】--【视频原声】选择关闭。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--当视频设置完成后就可以生成视频了--点击【混剪视频】--可以进行预览视频，比较推荐和满意的视频可以选择进行合成或下载。（只有已经合成后的视频才可以下载）。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h4>文生视频</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>AI生成文案或者自己提供文案，AI系统将自动根据文案智能生成视频。</p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【视频剪辑师】--【文生视频】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--输入文案或AI生成文案--点击【生成视频】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h4>爆款素材库</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>海量热门视频、图片剪辑素材。</p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\"><br></span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【视频剪辑师】--【爆款素材库】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--选择需要的素材形式是视频还是图片--输入关键词--点击【搜索】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h2>直播助手</h2><p><br></p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>自动录制直播，AI智能剪辑切片。<br><br><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">点击【流量部门】--【直播助手】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">在抖音平台复制直播间链接。如不明白操作可在对话框上方点击【链接教程】--查看直播链接获取方式。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">可以直接在对话框中粘贴直播间链接或者将已有的视频通过【上传视频】的方式进行上传。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">将链接发送至对话后，点击【切片设置】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">选择【切片方式】--选择【保存位置】--点击【开始切片】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">待直播结束后，可以在右侧功能栏中查看已切片完成的视频。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">该视频可以下载到本地或直接模版成片。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h2><u>视频发布员</u></h2><p><br></p><h4>智能发布</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>通过接口或二维码或通过红人聚APP矩阵发布视频。</p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【视频发布员】--【智能发布】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--可以本地发布、接口发布、二维码发布、APP发布。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--本地发布--电脑下载本地发布软件进行短视频与账号批量发布。（仅支持win系统暂不支持iOS系统，这里需将账号授权到此发布系统中）。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--接口发布--选择视频；编辑标题；选择发布的时间；发布的规则，进行发布视频。（接口暂时仅支持快手平台账号进行发布视频）。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--二维码发布--可以发布抖音、快手、视频号、小红书、Tik Tok平台（需打开短视频APP扫描二维码进行发布视频）。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--APP发布--可以发布抖音、快手、视频号、Tik Tok平台（红人聚APP会收到发送通知，需打开红人聚APP，跳转到短视频APP进行发送）。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h4>矩阵号管理</h4><p><br></p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>将账号授权到元梦客AI系统中方便管理与对账号进行视频发布。</p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【视频发布员】--【矩阵号管理】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【添加账号】--【确定】--打开手机APP（抖音或快手）扫描二维码授权账号。（个人账号是无法授权的，需蓝V账号或蓝V员工账号）。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h4>商家管理</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>添加展示的商家的信息。</p><p><br></p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【视频发布员】--【商家管理】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【添加商家】--填写完整信息--点击【保存】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h4>代理管理</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>将业务对接的商家代理添加到列表中，后续发布视频的时候可以勾选代理进行记录，从而展现每个代理所有已发的视频任务数和视频任务完成数。</p><p><br></p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\"><br></span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【视频发布员】--【代理管理】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【添加代理】--输入代理的姓名、电话--点击【确定】。（也可以下载模版批量导入）。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h2>视频创作工作群</h2><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>多AI协同完成您的指令，从对话智能体到AI帮您做完工作。</p><p><br></p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--在对话框中输入您的指令。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--多AI根据您的指令完成工作流。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h2></h2><p><br></p><h1><span style=\"color: rgb(222, 120, 2);\">私域部门</span></h1><h2><u>私域营销专家</u></h2><p><br></p><p><br></p><p><br></p><p><br></p><h4>发售功能</h4><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>助力企业通过内容宣传和问卷数据收集来获取用户。</p><p><br></p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--先让deepseek或其他AI智能体或自己写发售信的内容，调整后复制好--点击【私域营销专家】--【发售功能】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--选择模版点击【立即使用】--将内容填写好并且预览完毕后点击【立即提交】--审核通过后，立即发售，将扫码得到的链接发送好友 。注意：只有事件营销才会用到，谨慎频繁使用。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h4>视频通话</h4><p><br></p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">功能介绍：</span></p><p>助力企业通过内容营销来获取客户。</p><p><br></p><p><br></p><p><span style=\"background-color: rgba(255, 246, 122, 0.8);\">使用教程：</span></p><p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--点击【私域营销专家】--【视频通话】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"></td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\">--【创建任务】--选择模版上传视频；设置标题；设置头像；分享板块的标题；分享内容；分享配图；设置音乐--点击【继续创建】按自己要求情况填写问卷问题调研，按自己要求情况填写并上传二维码图片--预览后点击【立即提交】。</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"auto\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr></tbody></table><h2><u>活动策划专家</u></h2><p><br></p><p><br></p><p><br></p>",
+					"articleTitle":"测试搬运文章",
+					"articleTitleStrs":"<li id=\"title-w-e-element-327\" index=\"0\" type=\"header1\">增长因果大模型</li><li id=\"title-w-e-element-617\" index=\"0\" type=\"header2\">立项</li><li id=\"title-w-e-element-648\" index=\"1\" type=\"header1\">流量部门</li><li id=\"title-w-e-element-650\" index=\"1\" type=\"header2\">内容选题员</li><li id=\"title-w-e-element-653\" index=\"0\" type=\"header4\">创意灵感</li><li id=\"title-w-e-element-679\" index=\"2\" type=\"header2\">文案编导</li><li id=\"title-w-e-element-681\" index=\"1\" type=\"header4\">视频拆解</li><li id=\"title-w-e-element-733\" index=\"2\" type=\"header4\">爆款视频</li><li id=\"title-w-e-element-760\" index=\"3\" type=\"header4\">同行监控</li><li id=\"title-w-e-element-780\" index=\"4\" type=\"header4\">AI爆款脚本改写</li><li id=\"title-w-e-element-801\" index=\"5\" type=\"header4\">爆款结构</li><li id=\"title-w-e-element-822\" index=\"6\" type=\"header4\">视频转文案</li><li id=\"title-w-e-element-842\" index=\"3\" type=\"header2\">视频剪辑师</li><li id=\"title-w-e-element-844\" index=\"7\" type=\"header4\">数字人视频</li><li id=\"title-w-e-element-902\" index=\"8\" type=\"header4\">极速克隆</li><li id=\"title-w-e-element-922\" index=\"9\" type=\"header4\">视频出海</li><li id=\"title-w-e-element-943\" index=\"10\" type=\"header4\">一键成片</li><li id=\"title-w-e-element-977\" index=\"11\" type=\"header4\">混剪工具</li><li id=\"title-w-e-element-1064\" index=\"12\" type=\"header4\">文生视频</li><li id=\"title-w-e-element-1085\" index=\"13\" type=\"header4\">爆款素材库</li><li id=\"title-w-e-element-1107\" index=\"4\" type=\"header2\">直播助手</li><li id=\"title-w-e-element-1163\" index=\"5\" type=\"header2\">视频发布员</li><li id=\"title-w-e-element-1165\" index=\"14\" type=\"header4\">智能发布</li><li id=\"title-w-e-element-1210\" index=\"15\" type=\"header4\">矩阵号管理</li><li id=\"title-w-e-element-1232\" index=\"16\" type=\"header4\">商家管理</li><li id=\"title-w-e-element-1254\" index=\"17\" type=\"header4\">代理管理</li><li id=\"title-w-e-element-1277\" index=\"6\" type=\"header2\">视频创作工作群</li><li id=\"title-w-e-element-1302\" index=\"7\" type=\"header2\"></li><li id=\"title-w-e-element-1304\" index=\"2\" type=\"header1\">私域部门</li><li id=\"title-w-e-element-1306\" index=\"8\" type=\"header2\">私域营销专家</li><li id=\"title-w-e-element-1311\" index=\"18\" type=\"header4\">发售功能</li><li id=\"title-w-e-element-1333\" index=\"19\" type=\"header4\">视频通话</li><li id=\"title-w-e-element-1356\" index=\"9\" type=\"header2\">活动策划专家</li>",
+					"crName":"test",
+					"crTime":"2025-05-09 20:42:08",
+					"id":"d811570dece74a7bbf056ab1be1bacae",
+					"nodeCheck":false,
+					"parentId":"e102399f0264447db90425de48f03c4d",
+					"type":1,
+					"usId":"0cb5015f8ed54c8eab6bc344dbc27632"
+				},
+				{
+					"articleContent":"<h1>一</h1><p>开始123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123132132132132132132132132132132132132132132132132132132132132132132132132132132132132132132132123123结束</p><h2>二</h2><p>321</p><h3>三</h3><p>54123</p><h4>四</h4><p>12314</p><h5>五</h5><p>3311</p><p><br></p>",
+					"articleTitle":"新多层目录",
+					"articleTitleStrs":"<li id=\"title-w-e-element-552\" index=\"0\" type=\"header1\">一</li><li id=\"title-w-e-element-558\" index=\"0\" type=\"header2\">二</li><li id=\"title-w-e-element-563\" index=\"0\" type=\"header3\">三</li><li id=\"title-w-e-element-576\" index=\"0\" type=\"header4\">四</li><li id=\"title-w-e-element-580\" index=\"0\" type=\"header5\">五</li>",
+					"crName":"蒋安",
+					"crTime":"2025-05-09 22:13:23",
+					"id":"e4f2da44ab4b489eb80069407ded694a",
+					"nodeCheck":false,
+					"parentId":"e102399f0264447db90425de48f03c4d",
+					"type":1,
+					"usId":"b72bd0e0599840adab0cdd7f45812d47"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 10:29:25",
+					"id":"3c4fdbd72f5f4eec91204bd2478e7915",
+					"nodeCheck":false,
+					"parentId":"e102399f0264447db90425de48f03c4d",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 10:31:31",
+					"id":"7a5753f2481e41bab120c9ea61d8b535",
+					"nodeCheck":false,
+					"parentId":"e102399f0264447db90425de48f03c4d",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 10:33:22",
+					"id":"f545bb75316b47aea5d9a43b96f8c9e3",
+					"nodeCheck":false,
+					"parentId":"e102399f0264447db90425de48f03c4d",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 10:33:27",
+					"id":"731c87f397e8472d9a76309d7e3733cc",
+					"nodeCheck":false,
+					"parentId":"e102399f0264447db90425de48f03c4d",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				}
+			],
+			"crTime":"2025-05-08 16:47:54",
+			"id":"e102399f0264447db90425de48f03c4d",
+			"nodeCheck":false,
+			"parentId":"0",
+			"type":0,
+			"usId":"supper"
+		},
+		{
+			"articleTitle":"常见问题",
+			"childList":[
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 11:22:15",
+					"id":"04f9501aefe24eb6a03d4665040ce92e",
+					"nodeCheck":false,
+					"parentId":"b8bed46ea82c48f69b1f44e085894aa3",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 11:24:47",
+					"id":"60bc98808ded406a8c20f533535d40bc",
+					"nodeCheck":false,
+					"parentId":"b8bed46ea82c48f69b1f44e085894aa3",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 11:27:06",
+					"id":"6b4bd751c3d140dc8b1ab64ebfbff59a",
+					"nodeCheck":false,
+					"parentId":"b8bed46ea82c48f69b1f44e085894aa3",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 11:27:21",
+					"id":"460b9fe6741a4958b0b9f32b82704bd5",
+					"nodeCheck":false,
+					"parentId":"b8bed46ea82c48f69b1f44e085894aa3",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 11:27:41",
+					"id":"5168884e8437472b8a6a345b6c9882b7",
+					"nodeCheck":false,
+					"parentId":"b8bed46ea82c48f69b1f44e085894aa3",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 11:29:22",
+					"id":"4b0fc6e110d94bac9baa0170eadfb6e0",
+					"nodeCheck":false,
+					"parentId":"b8bed46ea82c48f69b1f44e085894aa3",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 11:30:38",
+					"id":"a43d3d0b78db4dc4bc4a0c73c0dfff11",
+					"nodeCheck":false,
+					"parentId":"b8bed46ea82c48f69b1f44e085894aa3",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				},
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"何磊",
+					"crTime":"2025-05-10 11:31:15",
+					"id":"6c48c6224ab74d1d8ac38e657be734e8",
+					"nodeCheck":false,
+					"parentId":"b8bed46ea82c48f69b1f44e085894aa3",
+					"type":1,
+					"usId":"d1d3209d45e8407589ff785987b96e12"
+				}
+			],
+			"crTime":"2025-05-08 16:47:54",
+			"id":"b8bed46ea82c48f69b1f44e085894aa3",
+			"nodeCheck":false,
+			"parentId":"0",
+			"type":0,
+			"usId":"supper"
+		},
+		{
+			"articleContent":"",
+			"articleTitle":"新建目录",
+			"childList":[
+				{
+					"articleContent":"",
+					"articleTitle":"新建目录",
+					"crName":"黄文韬",
+					"crTime":"2025-05-12 16:36:26",
+					"id":"95cea351603d43c9afb0588566f8e728",
+					"nodeCheck":false,
+					"parentId":"612c5f8625544d229585054e99edb6b5",
+					"type":1,
+					"usId":"41bc1dd218dd41799f8a0479c3ac4fe0"
+				}
+			],
+			"crName":"黄文韬",
+			"crTime":"2025-05-12 16:36:11",
+			"id":"612c5f8625544d229585054e99edb6b5",
+			"nodeCheck":false,
+			"parentId":"0",
+			"type":0,
+			"usId":"41bc1dd218dd41799f8a0479c3ac4fe0"
+		},
+		{
+			"articleContent":"",
+			"articleTitle":"新建目录",
+			"childList":[],
+			"crName":"黄文韬",
+			"crTime":"2025-05-12 16:36:35",
+			"id":"04bffcb538424f2cb6b18cce0df7dd90",
+			"nodeCheck":false,
+			"parentId":"0",
+			"type":0,
+			"usId":"41bc1dd218dd41799f8a0479c3ac4fe0"
+		},
+		{
+			"articleContent":"",
+			"articleTitle":"新建目录",
+			"childList":[],
+			"crName":"黄文韬",
+			"crTime":"2025-05-12 16:36:38",
+			"id":"1aa8474924774d46992868dbe58372df",
+			"nodeCheck":false,
+			"parentId":"0",
+			"type":0,
+			"usId":"41bc1dd218dd41799f8a0479c3ac4fe0"
+		}
+	],
+	"message":"success"
+}
+2025-05-15 17:21:52,630 - common.log_utils - INFO - 用例通过: {'method': 'get', 'url': 'https://test-api2.wsjw88.com/api/admin/twHelpCenter/queryAll', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': None, 'data': None, 'json': None, 'expected_status_code': 1001}
+2025-05-15 17:25:39,664 - common.log_utils - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/user/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data=None, json={'userName': '13288837480', 'password': '13288837480', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}
+2025-05-15 17:25:39,665 - common.log_utils - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"data":"dde0d813faf64754839438b37f31f3a0",
+	"message":"success"
+}
+2025-05-15 17:25:39,665 - common.log_utils - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/user/open/user/login', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': None, 'data': "{'userName': '13288837480',\n'password': '13288837480',\n'userType': '-1',\n'logPort': '0',\n'logType': '1',\n'domain': 'zt'}", 'json': None, 'expected_status_code': 1001}
+2025-05-15 17:25:39,666 - common.log_utils - INFO - 成功从 D:\APItest\testcases\test_cases.xlsx 获取到 token: dde0d813faf64754839438b37f31f3a0
+2025-05-15 17:25:39,801 - common.log_utils - INFO - 请求信息: method=post, url=https://api.hongrenju96.com/api/admin/user/updateUserPassword, headers={'Access-Domain': 'zt', 'access-token': 'dde0d813faf64754839438b37f31f3a0'}, params=None, data=None, json={'id': 'c39bf60707f64c108bf1ed7ae8641e9f', 'newPassword': '13288837481', 'token': 'dde0d813faf64754839438b37f31f3a0'}
+2025-05-15 17:25:39,802 - common.log_utils - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"message":"success"
+}
+2025-05-15 17:25:39,802 - common.log_utils - INFO - 用例通过: {'method': 'post', 'url': 'https://api.hongrenju96.com/api/admin/user/updateUserPassword', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': None, 'data': "{'id':'c39bf60707f64c108bf1ed7ae8641e9f','newPassword':'13288837481','token':'token'\n}", 'json': None, 'expected_status_code': 1001}
+2025-05-15 17:25:40,057 - common.log_utils - INFO - 请求信息: method=post, url=https://test-api2.wsjw88.com/api/open/user/login, headers={'Access-Domain': 'zt'}, params=None, data={'userName': '13288837480', 'password': '132888', 'userType': '-1', 'logPort': '0', 'logType': '1', 'domain': 'zt'}, json=None
+2025-05-15 17:25:40,057 - common.log_utils - INFO - 响应信息: status_code=200, content={
+	"code":1001,
+	"data":"74affb535d24460c816a65fdce70f009",
+	"message":"success"
+}
+2025-05-15 17:25:40,057 - common.log_utils - INFO - 用例通过: {'method': 'post', 'url': 'https://test-api2.wsjw88.com/api/open/user/login', 'headers': 'Access-Domain=zt', 'params': None, 'form_data': "{'userName': '13288837480',\n'password': '132888',\n'userType': '-1',\n'logPort': '0',\n'logType': '1',\n'domain': 'zt'}", 'data': None, 'json': None, 'expected_status_code': 1001}
+2025-05-15 17:25:40,057 - common.log_utils - INFO - 成功从 D:\APItest\testcases\test_houtai.xlsx 获取到 token: 74affb535d24460c816a65fdce70f009
+2025-05-15 17:25:40,300 - common.log_utils - INFO - 请求信息: method=get, url=https://test-api2.wsjw88.com/api/admin/twHelpCenter/queryAll, headers={'Access-Domain': 'supper', 'access-token': '74affb535d24460c816a65fdce70f009'}, params=None, data=None, json=None
+2025-05-15 17:25:40,300 - common.log_utils - INFO - 响应信息: status_code=200, content={"code":0,"message":"Authorization Error","data":null}
